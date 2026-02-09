@@ -71,7 +71,24 @@ body {
 .portfolio-item a:hover {
   background-color: #128C7E;
 }
+.social-btn {
+  display: inline-block;
+  color: white;
+  padding: 12px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
 
+.insta-btn {
+  background: #C13584; /* Instagram gradient-like color */
+}
+
+.insta-btn:hover {
+  background: #833AB4; /* Darker Instagram shade on hover */
+}
 /* Hire Me button */
 .hire-me-btn {
   display: inline-block;
