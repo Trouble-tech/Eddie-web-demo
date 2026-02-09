@@ -26,7 +26,67 @@ body {
   font-size: 18px;
   margin-bottom: 25px;
 }
+#portfolio {
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
 
+#portfolio h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+#portfolio p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #374151;
+}
+
+.portfolio-item {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.portfolio-item h3 {
+  margin-top: 0;
+  color: #111827;
+}
+
+.portfolio-item a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ffffff;
+  background: #25D366;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.portfolio-item a:hover {
+  background-color: #128C7E;
+}
+
+/* Hire Me button */
+.hire-me-btn {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.hire-me-btn:hover {
+  background-color: #128C7E;
+}
 .btn {
   display: inline-block;
   margin-top: 10px;
