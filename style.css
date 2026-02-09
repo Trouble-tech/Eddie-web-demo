@@ -171,3 +171,41 @@ footer {
   color: white;
   background: #111827;
   }
+/* Social Media Icon Buttons */
+.social-icon-btn {
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.social-icon-btn:hover {
+  transform: scale(1.2);
+}
+
+.social-icon-btn.whatsapp {
+  background-color: #25D366;
+}
+
+.social-icon-btn.instagram {
+  background: #C13584;
+}
+
+.social-icon-btn.facebook {
+  background: #1877F2;
+}
+
+/* Optional: If you want hover color darker for Instagram & Facebook */
+.social-icon-btn.instagram:hover {
+  background: #833AB4;
+}
+
+.social-icon-btn.facebook:hover {
+  background: #145DBF;
+  }
